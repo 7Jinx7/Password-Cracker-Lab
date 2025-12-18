@@ -1,4 +1,4 @@
-# 🔐 Password Cracker Lab
+# Password Cracker Lab
 
 ## Overview
 
