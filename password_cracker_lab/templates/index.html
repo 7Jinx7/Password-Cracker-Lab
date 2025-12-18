@@ -1,0 +1,86 @@
+<!-- Author: Sanjana Suresh -->
+<!-- HTML for app.py -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Cracker Lab</title>
+        <style>
+            body {
+                background-color: #F7F5EB;
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: #006078;
+            }
+    
+            .container {
+                background-color: #D5E3E8;
+                padding: 30px;
+                border-radius: 12px;
+                width: 80%;
+                max-width: 600px;
+                text-align: center;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+    
+            h1 {
+                margin-bottom: 20px;
+            }
+    
+            input {
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border-radius: 6px;
+                border: none;
+            }
+    
+            button {
+                background-color: #E8A2A2;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 16px;
+                color: #483a42;
+            }
+    
+            button:hover {
+                opacity: 0.85;
+            }
+    
+            .results {
+                margin-top: 20px;
+                background-color: #F7F5EB;
+                padding: 15px;
+                border-radius: 8px;
+                color: #1d8d91; 
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Password Cracker Lab</h1>
+    
+            <form method="POST">
+                <input type="text" name="password" placeholder="Enter a password" required>
+                <br>
+                <button type="submit">Test Password</button>
+            </form>
+    
+            {% if result %}
+            <div class="results">
+                <p><strong>Password:</strong> {{ result[0] }}</p>
+                <p><strong>Crack Time (seconds):</strong> {{ result[1] }}</p>
+                <p><strong>Strength:</strong> {{ result[2] }}</p>
+                <p><strong>Suggestion:</strong> {{ result[3] }}</p>
+            </div>
+            {% endif %}
+        </div>
+    </body>
+        
+</html>

@@ -1,0 +1,16 @@
+Password Cracker Lab Report
+===========================
+
+Your Password Analysis: 
+Password Entered: JUGJGTHsjgfhjk2453665@#$$%
+Estimated crack time (seconds): 6.461081889226673e+41
+Strength rating: Strong! 🥳
+Suggestion: Nice! Your password uses a strong mix of characters.
+----------------------
+----------------------
+Breaking down the dataset:
+total number of passwords: 10000
+lowercase_only: 7095
+letters_and_digits: 830
+symbols_present: 12
+length_over_12: 25
