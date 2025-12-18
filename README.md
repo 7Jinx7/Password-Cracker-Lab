@@ -76,7 +76,6 @@ password_cracker_lab/
 │   └── report.txt
 ├── templates/
 │   └── index.html
-└── README.txt
 ```
 
 ---
