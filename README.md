@@ -65,11 +65,11 @@ The dataset is used **only for statistical analysis and educational simulation**
 
 ```
 password_cracker_lab/
-├── app.py                  # Flask web application
-├── main.py                 # Command-line interface
+├── app.py                  
+├── main.py                 
 ├── crackerlib/
-│   ├── analyzer.py         # Classes and inheritance
-│   └── constants.py        # Constants
+│   ├── analyzer.py         
+│   └── constants.py        
 ├── data/
 │   └── common_passwords.csv
 ├── output/
