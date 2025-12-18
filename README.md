@@ -41,7 +41,7 @@ The dataset is used **only for statistical analysis and educational simulation**
 * Loads and analyzes 10,000 real-world passwords
 * Computes dataset-wide statistics such as:
 
-  * lowercase-only passwords
+  * uppercase or lowercase-only passwords
   * use of digits and symbols
   * password length distribution
 * Estimates brute-force crack time for a user-entered password
